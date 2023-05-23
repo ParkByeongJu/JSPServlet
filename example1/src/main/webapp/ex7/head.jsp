@@ -33,3 +33,5 @@ public int getLength() {
 	현재 날짜 : <%= date.toLocaleString() %>
 </body>
 </html>
+
+
