@@ -13,10 +13,15 @@
 	map.put("1", "a");
 	map.put("2", "b");
 	map.put("3", "c");
+	String a = map.get("1");
 	pageContext.setAttribute("map", map);
 %>
-${map["1"]}
-${map["2"]}
-${map["3"]}
+map[1] : <%= a %><br/>
+${map["1"]}<br/>
+${map["2"]}<br/>
+${map["3"]}<br/>
+${10+20}<br/>
+${100/20}
+${true&&false}<br/>
 </body>
 </html>
