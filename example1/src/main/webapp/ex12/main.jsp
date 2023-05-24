@@ -21,7 +21,7 @@ ${map["1"]}<br/>
 ${map["2"]}<br/>
 ${map["3"]}<br/>
 ${10+20}<br/>
-${100/20}
-${true&&false}<br/>
+${100/20}<br/>
+${true&&false}
 </body>
 </html>
