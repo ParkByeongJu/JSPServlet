@@ -18,6 +18,13 @@ public class BookVO {
 	public BookVO() {
 		
 	}
+	
+	public BookVO(String isbn, String title, String writer) {
+		super();
+		this.isbn = isbn;
+		this.title = title;
+		this.writer = writer;
+	}
 
 	public String getIsbn() {
 		return isbn;

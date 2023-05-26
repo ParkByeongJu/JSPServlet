@@ -22,7 +22,6 @@ map.put("two", "World");
 pageContext.setAttribute("map", map);
 %>
 ${map.get("one")}, ${map["one"]}, ${map.one}<br/>
-${(10*10) ne 100}<br/>
 ${pageContext.request.contextPath }<br/>
 </body>
 </html>
