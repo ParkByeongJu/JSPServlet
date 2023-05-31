@@ -6,11 +6,11 @@ import java.sql.ResultSet;
 import java.sql.Statement;
 
 public class JDBCUtil {
-	public Connection getConnnection() {
+	public static Connection getConnnection() {
 		try {
 			Class.forName("org.h2.Driver");
 			String url = "jdbc:h2:tcp://localhost/~/test";
-			return DriverManager.getConnection(url);
+			return DriverManager.getConnection(url, "sa", "");
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
