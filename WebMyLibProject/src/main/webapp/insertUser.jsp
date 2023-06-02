@@ -92,7 +92,7 @@
 	    </form>
 	</div>
 	<div class="link">
-	    <a href="login.jsp">로그인</a>
+	    <a href="/WebMyLibProject/login.jsp">로그인</a>
     </div>
 </body>
 </html>

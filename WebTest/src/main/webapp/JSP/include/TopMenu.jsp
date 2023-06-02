@@ -1,6 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=EUC-KR"
     pageEncoding="EUC-KR"%>
-<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>  
+<%@ taglib uri = "http://java.sun.com/jsp/jstl/core" prefix="c"%>
 <table style="width:100%" border="1">
 	<tr>
 		<td rowspan="2">·Î°í</td>
